@@ -1,0 +1,93 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GT Snowracer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <link rel="stylesheet" href="bower_components/sass-bootstrap/dist/css/bootstrap.min.css">
+        <!-- bower:css -->
+        
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+            <div class="header">
+                <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <h3 class="text-muted">GT Snowracer</h3>
+            </div>
+
+            <div class="jumbotron">
+                <img src="images/badass.jpg" class="img-responsive" alt="Responsive image">
+                <p class="lead">A base grunt build, based off Yeoman's Webapp Generator, but without the Yeoman.</p>
+            </div>
+
+            <div class="features">
+                <div class="col-lg-6">
+                    <h4>grunt server</h4>
+                    <p>That's how you got here.</p>
+                    <h4>grunt build</h4>
+                    <p>Builds a dist folder, with minified, uglified css and js files</p>
+                    <h4>grunt server:dist</h4>
+                    <p>Maybe that's how you got here, but check your source, it's ugly as hell.</p>  
+                    <h4>Usemin</h4>
+                    <p>Figures out how and when to load the uglified stuff.</p>   
+                    <h4>livereload</h4>
+                    <p>If running grunt server, go ahead and make a change in your app folder. Booyeah.</p>  
+                </div>
+                <div class="col-lg-6">
+                    <h4>compass</h4>
+                    <p>Edit app/main.scss</p>
+                    <h4>jshint</h4>
+                    <p>If your javscript's a mess, jshint won't let you out to play until you clean it.</p>        
+                    <h4>mocha</h4>
+                    <p>Do you know mocha? Me neither. But it's ready for us when we are.</p>     
+                    <h4>Imagemin</h4>
+                    <p>Don't waste your bandwidth on pictures of dudes on sleds.</p>       
+                    <h4>Bower</h4>
+                    <p>apt-get for javascript.</p>  
+                </div>
+            </div>
+
+            <div class="footer col-lg-12">
+                <p>Nik's SMH Project</p>
+            </div>
+
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>

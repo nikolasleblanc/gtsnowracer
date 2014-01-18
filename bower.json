@@ -1,0 +1,22 @@
+{
+  "name": "usemin",
+  "version": "0.0.0",
+  "authors": [
+    "Nikolas <nikolas.leblanc@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0",
+    "modernizr": "~2.6.2",
+    "jquery": "~1.10.2",
+    "backbone": "~1.1.0"
+  }
+}
